@@ -148,11 +148,11 @@ public class Robot extends TimedRobot {
           double valuec = c.getValue();
           double keyf = f.getKey();
           double keyc = c.getKey();
-
+          return speed.doubleValue();
         }
       }
     } else {
-     return double speed = Double.parseDouble(speed);
+     return speed.doubleValue();
     }
   }
 }
