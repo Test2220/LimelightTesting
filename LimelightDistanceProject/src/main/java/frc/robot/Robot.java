@@ -128,7 +128,7 @@ public class Robot extends TimedRobot {
     map.put(72.0, 200.0);
     map.put(96.0, 250.0);
     map.put(120.0, 300.0);
-    double distance = 12;
+    double distance = getDistanceToTarget();
 
     Double speed = map.get(distance);
     if (speed == null) {
